@@ -2,7 +2,7 @@ import React from 'react';
 import {Link, useLocation, useParams, useNavigate } from 'react-router-dom';
 import {Button, Card, Container} from "react-bootstrap";
 import axios from "axios";
-import useAuth from "../../Hooks/useAuth";
+import useAuth from "../../hooks/UseAuth";
 
 export const ShowBlogDetails = () => {
   const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;

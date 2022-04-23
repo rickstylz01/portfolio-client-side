@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {Fade} from "react-reveal";
-import AuthButton from "./AuthButton/authButton";
+import AuthButton from "./authButton/AuthButton";
 
 const Navigation = () => {
   return (

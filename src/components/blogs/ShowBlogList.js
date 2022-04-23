@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
-import BlogCard from "./BlogCard/blogCard";
+import BlogCard from "./blogCard/BlogCard";
 import axios from "axios";
 import {Col, Container, Row} from "react-bootstrap";
-import Contact from "../Contact/contact";
-import Footer from "../Footer/footer";
+import Contact from "../contact/Contact";
+import Footer from "../footer/Footer";
 
 const ShowBlogList = () => {
   const [blogs, setBlogs] = useState([]);

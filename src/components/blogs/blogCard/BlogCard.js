@@ -2,7 +2,7 @@ import React from "react";
 import {Button, Card,} from "react-bootstrap";
 import Fade from "react-reveal";
 import {Link} from "react-router-dom";
-import './blogCard.css';
+import './BlogCard.css';
 
 const BlogCard = (props) => {
   const blog = props.blog;

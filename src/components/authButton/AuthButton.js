@@ -1,7 +1,7 @@
 import React from 'react';
-import LogoutButton from "./logoutButton";
-import LoginButton from "./loginButton";
-import useAuth from "../../Hooks/useAuth";
+import LogoutButton from "./LogoutButton";
+import LoginButton from "./LoginButton";
+import useAuth from "../../hooks/UseAuth";
 
 const AuthButton = () => {
   const { auth } = useAuth();

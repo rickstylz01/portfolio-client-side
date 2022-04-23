@@ -1,9 +1,9 @@
 import React from "react";
 import Fade from "react-reveal";
 import { Container, Image } from "react-bootstrap";
-import './aboutMe.css';
-import Footer from "../Footer/footer";
-import Contact from "../Contact/contact";
+import './AboutMe.css';
+import Footer from "../footer/Footer";
+import Contact from "../contact/Contact";
 
 const AboutMe = () => {
   return(

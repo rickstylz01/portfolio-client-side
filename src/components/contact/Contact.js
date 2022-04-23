@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal';
-import './contact.css';
+import './Contact.css';
 import {Container} from "react-bootstrap";
 
 const Contact = () => {
