@@ -1,0 +1,85 @@
+/*--Contact Contact Design--*/
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: chocolate;
+  margin-top: 40px;
+}
+
+form {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+.heading {
+  justify-content: center;
+  display: flex;
+}
+
+/*--Google Map Styles--*/
+.map {
+  display: none;
+}
+
+/*--Button--*/
+form button {
+  padding: 10px 16px;
+  background-color: black;
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  color: white;
+}
+
+form button:hover {
+  color: black;
+  background-color: #7FFFD4;
+}
+
+form button:visited {
+  background-color: black;
+}
+
+/*--Desktop Styles--*/
+@media all and (min-width: 997px) {
+  #contact {
+    height: auto;
+  }
+
+  .form-container {
+    display: flex;
+  }
+
+  .google-map {
+    width: 550px;
+    height: 330px;
+  }
+
+  .map {
+    display: flex;
+    padding: 20px;
+  }
+
+  .flex-child {
+    flex: 1;
+  }
+
+  .flex-child:first-child {
+    margin-right: 20px;
+  }
+}

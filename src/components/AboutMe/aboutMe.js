@@ -2,6 +2,8 @@ import React from "react";
 import Fade from "react-reveal";
 import { Container, Image } from "react-bootstrap";
 import './aboutMe.css';
+import Footer from "../Footer/footer";
+import Contact from "../Contact/contact";
 
 const AboutMe = () => {
   return(
@@ -96,8 +98,8 @@ const AboutMe = () => {
           </div>
         </Container>
       </section>
-      {/*<Contact />*/}
-      {/*<Footer />*/}
+      <Contact />
+      <Footer />
     </div>
 
   )
