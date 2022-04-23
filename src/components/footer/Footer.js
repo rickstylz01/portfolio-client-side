@@ -1,6 +1,6 @@
 import React from "react";
 import {SocialIcon} from "react-social-icons";
-import './footer.css';
+import './Footer.css';
 import {Fade} from "react-reveal";
 
 const Footer = () => {

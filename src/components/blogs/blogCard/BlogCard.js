@@ -2,12 +2,10 @@ import React from "react";
 import {Button, Card,} from "react-bootstrap";
 import Fade from "react-reveal";
 import {Link} from "react-router-dom";
-import './blogCard.css';
+import './BlogCard.css';
 
 const BlogCard = (props) => {
   const blog = props.blog;
-
-
   function truncateString(str, num) {
     // If the length of str is less than or equal to num
     // just return str--don't truncate it.
@@ -28,7 +26,6 @@ const BlogCard = (props) => {
               {truncateString(blog.title, 20)}
             </Card.Title>
             <div><b>Author:</b> {blog.author}</div>
-            <div><b>Date:</b> {blog.publishDate}</div>
             <Card.Text>
               <b>Description:</b> {truncateString(blog.description, 60)}
             </Card.Text>

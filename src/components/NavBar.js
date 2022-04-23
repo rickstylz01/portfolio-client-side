@@ -1,6 +1,7 @@
 import React from "react";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {Fade} from "react-reveal";
+import AuthButton from "./authButton/AuthButton";
 
 const Navigation = () => {
   return (
@@ -36,6 +37,9 @@ const Navigation = () => {
               <Nav.Link href="/blogs">Blog</Nav.Link>
             </Fade>
           </Nav>
+          <Fade right>
+            <AuthButton />
+          </Fade>
         </Navbar.Collapse>
       </Container>
     </Navbar>
