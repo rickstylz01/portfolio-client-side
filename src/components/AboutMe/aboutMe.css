@@ -1,0 +1,63 @@
+#achievements {
+  background-color: black;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.mobile-text-center {
+  text-align: center;
+}
+
+.parent-container,
+.achievements-container,
+.hobbies-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.center-text,
+.ra-scholarship,
+.google-scholarship {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+  .parent-container,
+  .achievements-container,
+  .hobbies-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .padding-right {
+    padding-right: 24px;
+  }
+
+  .flex-child {
+    flex: 1;
+  }
+
+  .flex-child:first-child {
+    margin-right: 20px;
+  }
+
+  .text-xLarge {
+    font-size: x-large;
+  }
+
+  .ra-scholarship {
+    height: 475px;
+    width: 683px;
+  }
+
+  .google-scholarship {
+    height: 475px;
+    width: 683px;
+  }
+}
