@@ -10,6 +10,7 @@ import UpdateBlogInfo from "./components/Blogs/updateBlogInfo";
 import {LoginForm} from "./components/login";
 import RequireAuth from "./components/requireAuth";
 import Layout from "./components/layout";
+import CreateBlog from "./components/Blogs/createBlog";
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />} >
         <Route exact path="/" element={<Landing />} />
-        <Route element={ <WithNav /> } >
 
+        <Route element={ <WithNav /> } >
           {/*--Public--*/}
           <Route path="/login" element={<LoginForm />} />
           <Route path="/about" element={<AboutMe />} />
@@ -27,6 +28,7 @@ function App() {
 
           {/*--Protected--*/}
           <Route element={<RequireAuth />}>
+            <Route path="/blogs/new" element={<CreateBlog />} />
             <Route path="/blogs/:id/edit" element={ <UpdateBlogInfo /> }  />
             <Route path="/blogs/:id/delete" />
           </Route>
