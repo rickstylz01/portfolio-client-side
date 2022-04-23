@@ -45,7 +45,7 @@ const AboutMe = () => {
               <div className="flex-child">
                 <Image
                   className="google-scholarship"
-                  src="../../images/GoogleScholarship.jpg"
+                  src={require('../../assets/images/google-scholarship.jpg')}
                   alt="Grow with Google Certificate"
                   fluid
                   thumbnail
@@ -56,7 +56,7 @@ const AboutMe = () => {
               <div className="flex-child">
                 <Image
                   className="ra-scholarship"
-                  src="../../images/RaCertificate.png"
+                  src={require('../../assets/images/RaCertificate.png')}
                   alt="Reskill Americans Certificate"
                   fluid
                   thumbnail
@@ -87,7 +87,7 @@ const AboutMe = () => {
             <Fade right>
               <Image
                 className="bboy-freeze"
-                src="../../images/bboy.JPG"
+                src={require('../../assets/images/bboy-freeze.jpg')}
                 alt="breakdancing freeze"
                 fluid
                 thumbnail
