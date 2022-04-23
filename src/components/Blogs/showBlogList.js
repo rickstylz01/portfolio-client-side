@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import BlogCard from "../Blog/BlogCard/blogCard";
+import BlogCard from "./BlogCard/blogCard";
 import axios from "axios";
 import {Col, Container, Row} from "react-bootstrap";
 import Contact from "../Contact/contact";
