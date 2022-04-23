@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #282c34;
+}
+
+.lft-margin {
+  margin-left: 5px;
+}
