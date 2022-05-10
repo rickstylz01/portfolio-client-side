@@ -6,7 +6,6 @@ import axios from "axios";
 export const LoginForm = () => {
   const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
   const { setAuth } = useAuth();
-
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
@@ -20,7 +19,6 @@ export const LoginForm = () => {
 
   useEffect(() => {
     userRef.current.focus();
-    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {

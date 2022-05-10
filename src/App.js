@@ -4,7 +4,7 @@ import {Route, Routes} from "react-router-dom";
 import Landing from "./components/landing/Landing";
 import AboutMe from "./components/aboutMe/AboutMe";
 import WithNav from "./components/WithNav";
-import ShowBlogList from "./components/blogs/ShowBlogList";
+import ShowBlogList from "./components/blogs/ShowBlogList/ShowBlogList";
 import {ShowBlogDetails} from "./components/blogs/ShowBlogDetails";
 import UpdateBlogInfo from "./components/blogs/UpdateBlogInfo";
 import {LoginForm} from "./components/Login";
@@ -43,7 +43,6 @@ function App() {
             <Route path="/projects/new" element={<CreateProject />} />
             <Route path="/projects/:id/edit" element={ <UpdateProjectInfo /> }  />
             <Route path="/projects/:id/delete" />
-
           </Route>
         </Route>
       </Route>

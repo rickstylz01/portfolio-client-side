@@ -1,17 +1,19 @@
 import React, {useEffect, useState} from "react";
-import BlogCard from "./blogCard/BlogCard";
+import './ShowBlogList.css'
+import BlogCard from "../blogCard/BlogCard";
 import axios from "axios";
 import {Col, Container, Row} from "react-bootstrap";
-import Contact from "../contact/Contact";
-import Footer from "../footer/Footer";
+import Contact from "../../contact/Contact";
+import Footer from "../../footer/Footer";
+import {Link} from "react-router-dom";
 
 const ShowBlogList = () => {
   const [blogs, setBlogs] = useState([]);
   const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
-
   useEffect(() => {
     getAllBlogData();
+    // eslint-disable-next-line
   }, []);
 
   const getAllBlogData = () => {
@@ -34,6 +36,9 @@ const ShowBlogList = () => {
             </Col>
           ))}
         </Row>
+        <div className="newBlogButton">
+          <Link to="/blogs/new" className="btn btn-outline-info">Create New Blog</Link>
+        </div>
       </Container>
 
       <Contact />
