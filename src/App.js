@@ -11,7 +11,7 @@ import {LoginForm} from "./components/Login";
 import RequireAuth from "./components/RequireAuth";
 import Layout from "./components/Layout";
 import CreateBlog from "./components/blogs/CreateBlog";
-import ShowProjectList from "./components/projects/ShowProjectList";
+import ShowProjectList from "./components/projects/showProjectList/ShowProjectList";
 import {ShowProjectDetails} from "./components/projects/ShowProjectDetails";
 import UpdateProjectInfo from "./components/projects/UpdateProjectInfo";
 import CreateProject from "./components/projects/CreateProject";
