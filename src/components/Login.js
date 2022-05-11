@@ -6,6 +6,7 @@ import axios from "axios";
 export const LoginForm = () => {
   const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
   const { setAuth } = useAuth();
+
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || "/";
@@ -35,13 +36,14 @@ export const LoginForm = () => {
           headers: { 'Content-Type': 'application/json'},
           withCredentials: true
         });
+      console.log(JSON.stringify(response?.data));
       const accessToken = response?.data?.accessToken;
       setAuth({ user, password, accessToken });
       setUser('');
       setPassword('');
       navigate(from, { replace: true });
-    } catch (err) {
       debugger
+    } catch (err) {
       if (!err?.response) {
         setErrMsg(err.response.data.message);
       } else if (err.response?.status === 401) {

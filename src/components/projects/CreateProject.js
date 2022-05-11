@@ -26,7 +26,7 @@ export const CreateProject = () => {
     };
 
     axios
-      .post(`${BACKEND_URL}projects/new`, data)
+      .post(`${BACKEND_URL}projects`, data)
       .then(res => {
         navigate(`../projects/`, { state: data });
       })
