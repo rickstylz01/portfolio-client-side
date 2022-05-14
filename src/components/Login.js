@@ -9,6 +9,7 @@ export const LoginForm = () => {
 
   const navigate = useNavigate();
   const location = useLocation();
+  console.log('This the location', location);
   const from = location.state?.from?.pathname || "/";
 
   const userRef = useRef();
@@ -37,6 +38,7 @@ export const LoginForm = () => {
           withCredentials: true
         });
       console.log(JSON.stringify(response?.data));
+      // check resources
       const accessToken = response?.data?.accessToken;
       setAuth({ user, password, accessToken });
       setUser('');

@@ -23,7 +23,7 @@ const Navigation = () => {
               height="30"
               className="d-inline-block align-top"
             />{' '}
-            Welcome!
+            Welcome
           </Navbar.Brand>
         </Fade>
 
