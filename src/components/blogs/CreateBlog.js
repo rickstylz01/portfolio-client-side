@@ -23,7 +23,7 @@ export const CreateBlog = () => {
     };
 
     axios
-      .post(`${BACKEND_URL}blogs/new`, data)
+      .post(`${BACKEND_URL}blogs`, data)
       .then(res => {
         navigate(`../blogs/`, { state: data });
       })

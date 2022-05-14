@@ -1,17 +1,18 @@
 import React, {useEffect, useState} from "react";
-import BlogCard from "./blogCard/BlogCard";
+import './ShowBlogList.css'
+import BlogCard from "../blogCard/BlogCard";
 import axios from "axios";
 import {Col, Container, Row} from "react-bootstrap";
-import Contact from "../contact/Contact";
-import Footer from "../footer/Footer";
+import Contact from "../../contact/Contact";
+import Footer from "../../footer/Footer";
 
 const ShowBlogList = () => {
   const [blogs, setBlogs] = useState([]);
   const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
-
   useEffect(() => {
     getAllBlogData();
+    // eslint-disable-next-line
   }, []);
 
   const getAllBlogData = () => {
