@@ -5,7 +5,6 @@ import axios from "axios";
 import {Col, Container, Row} from "react-bootstrap";
 import Contact from "../../contact/Contact";
 import Footer from "../../footer/Footer";
-import {Link} from "react-router-dom";
 
 
 const ShowProjectList = () => {
@@ -37,9 +36,6 @@ const ShowProjectList = () => {
             </Col>
           ))}
         </Row>
-        <div className="newProjectButton">
-          <Link to="/projects/new" className="btn btn-outline-info">Add New Project</Link>
-        </div>
       </Container>
 
       <Contact />
