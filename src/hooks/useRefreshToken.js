@@ -5,7 +5,9 @@ const useRefreshToken = () => {
   const { setAuth } = useAuth();
 
   const refresh = async () => {
-    const response = await axios.get('/refresh', {
+    const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+
+    const response = await axios.get(`${BACKEND_URL}refresh`, {
       withCredentials: true
     });
     setAuth(prev => {
