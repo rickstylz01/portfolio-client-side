@@ -6,6 +6,7 @@ import './BlogCard.css';
 
 const BlogCard = (props) => {
   const blog = props.blog;
+
   function truncateString(str, num) {
     // If the length of str is less than or equal to num
     // just return str--don't truncate it.
@@ -27,7 +28,7 @@ const BlogCard = (props) => {
             </Card.Title>
             <div><b>Author:</b> {blog.author}</div>
             <Card.Text>
-              <b>Description:</b> {truncateString(blog.description, 60)}
+              <b>Description:</b> {truncateString(blog.description, 30)}
             </Card.Text>
             <Link to={`/blogs/${blog._id}`} state={blog}>
               <Button variant="primary">View Blog</Button>
