@@ -13,12 +13,18 @@ export const ShowProjectDetails = () => {
         <Card.Title className="p-3">{ project.title }</Card.Title>
         <Card.Img variant="top" src={project.imageUrl} />
         <Card.Body>
+          <a href={project.projectLink}>
+            <Card.Text>
+              Github Code
+            </Card.Text>
+          </a>
           <div><b>Role:</b> {project.role}</div>
           <div><b>Stack:</b> {project.techStack.map((stack, idx) => (
             <ul key={idx} className="mb-0">
               <li>{stack}</li>
             </ul>
-          ))}</div>
+          ))}
+          </div>
           <Card.Text className="pt-3">
             {project.description}
           </Card.Text>
