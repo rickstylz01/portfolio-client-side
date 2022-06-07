@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Nav, Navbar} from "react-bootstrap";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 
 const Navigation = () => {
   return (

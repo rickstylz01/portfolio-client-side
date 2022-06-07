@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Image} from "react-bootstrap";
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 import {Link} from "react-router-dom";
 import unplug from "../../assets/unplug.mp4";
 import "./Landing.css"

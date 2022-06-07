@@ -1,7 +1,7 @@
 import React from "react";
 import {SocialIcon} from "react-social-icons";
 import './Footer.css';
-import {Fade} from "react-reveal";
+import {Fade} from "react-awesome-reveal";
 
 const Footer = () => {
   return (
