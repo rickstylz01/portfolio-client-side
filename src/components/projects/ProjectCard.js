@@ -1,6 +1,6 @@
 import React from "react";
 import {Button, Card} from "react-bootstrap";
-import Fade from "react-reveal";
+import Fade from "react-awesome-reveal";
 import {Link} from "react-router-dom";
 
 const ProjectCard = (props) => {
