@@ -5,6 +5,7 @@ import {Card} from "react-bootstrap";
 export const ShowProjectDetails = () => {
   const location = useLocation();
   const project = location.state;
+  // eslint-disable-next-line
   const { id } = useParams();
 
   return (
