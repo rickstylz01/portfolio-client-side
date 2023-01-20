@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-client-side/static/css/main.c791f9c7.css",
+    "main.js": "/portfolio-client-side/static/js/main.bab56cd2.js",
+    "static/js/787.5ac5516b.chunk.js": "/portfolio-client-side/static/js/787.5ac5516b.chunk.js",
+    "static/media/unplug.mp4": "/portfolio-client-side/static/media/unplug.db2bab00c9bf51669e05.mp4",
+    "static/media/staring-out.jpg": "/portfolio-client-side/static/media/staring-out.9b1a894ce72b41536142.jpg",
+    "static/media/RaCertificate.png": "/portfolio-client-side/static/media/RaCertificate.f7bafbce65cdb5406918.png",
+    "static/media/google-scholarship.jpg": "/portfolio-client-side/static/media/google-scholarship.909cd06f044aa442d46c.jpg",
+    "static/media/bootstrap-icons.woff?": "/portfolio-client-side/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio-client-side/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/bboy-freeze.jpg": "/portfolio-client-side/static/media/bboy-freeze.6a2f16b8fdcf69504f3a.jpg",
+    "index.html": "/portfolio-client-side/index.html",
+    "main.c791f9c7.css.map": "/portfolio-client-side/static/css/main.c791f9c7.css.map",
+    "main.bab56cd2.js.map": "/portfolio-client-side/static/js/main.bab56cd2.js.map",
+    "787.5ac5516b.chunk.js.map": "/portfolio-client-side/static/js/787.5ac5516b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c791f9c7.css",
+    "static/js/main.bab56cd2.js"
+  ]
+}
