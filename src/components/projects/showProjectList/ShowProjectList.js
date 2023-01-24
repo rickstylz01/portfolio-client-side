@@ -18,7 +18,7 @@ const ShowProjectList = () => {
 
   const getAllProjectData = () => {
     axios
-      .get(`${BACKEND_URL}projects`)
+      .get(`${BACKEND_URL}/projects`)
       .then((res) => {
         const allProjects = res.data;
         setProjects(allProjects);

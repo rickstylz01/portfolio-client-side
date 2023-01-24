@@ -17,7 +17,7 @@ const ShowBlogList = () => {
 
   const getAllBlogData = () => {
     axios
-      .get(`${BACKEND_URL}blogs`)
+      .get(`${BACKEND_URL}/blogs`)
       .then((res) => {
         const allBlogs = res.data;
         setBlogs(allBlogs);
