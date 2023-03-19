@@ -7,7 +7,7 @@ export const ShowBlogDetails = () => {
   const blog = location.state;
 
   return (
-    <div className="ShowBlogDetails col-8 offset-2 p-4">
+    <div className="ShowBlogDetails">
       <Container>
         <Card className="mt-3 mb-3">
           <Card.Title className="p-3">{ blog.title }</Card.Title>

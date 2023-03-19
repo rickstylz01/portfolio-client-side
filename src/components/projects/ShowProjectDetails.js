@@ -9,7 +9,7 @@ export const ShowProjectDetails = () => {
   const { id } = useParams();
 
   return (
-    <div className="ShowProjectDetails col-8 offset-2 p-4">
+    <div className="ShowProjectDetails">
       <Card className="mt-3 mb-3">
         <Card.Title className="p-3">{ project.title }</Card.Title>
         <Card.Img variant="top" src={project.imageUrl} />
