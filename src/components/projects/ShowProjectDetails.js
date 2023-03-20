@@ -16,7 +16,7 @@ export const ShowProjectDetails = () => {
         <Card.Body>
           <a href={project.projectLink}>
             <Card.Text>
-              Github Code
+              Project Link
             </Card.Text>
           </a>
           <div><b>Role:</b> {project.role}</div>
