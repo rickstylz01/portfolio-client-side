@@ -28,7 +28,7 @@ const ShowBlogList = () => {
   return(
     <div className="ShowBlogList">
       <Container className="p-4">
-        <Row xs={1} md={2} lg={4} className="g-4">
+        <Row xs={1} md={2} lg={2} className="g-4">
           {blogs.map((blog) => (
             <Col key={blog._id}>
               <BlogCard blog={blog} />

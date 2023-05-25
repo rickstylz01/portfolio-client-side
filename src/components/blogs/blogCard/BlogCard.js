@@ -31,7 +31,7 @@ const BlogCard = (props) => {
               <b>Description:</b> {truncateString(blog.description, 30)}
             </Card.Text>
             <Link to={`/blogs/${blog._id}`} state={blog}>
-              <Button variant="primary">View Blog</Button>
+              <Button variant="warning">View Blog</Button>
             </Link>
           </Card.Body>
         </Card>
