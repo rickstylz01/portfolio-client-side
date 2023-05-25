@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
               <b>Description:</b> {truncateString(project.description, 30)}
             </Card.Text>
             <Link to={`/projects/${project._id}`} state={project}>
-              <Button variant="primary">View Project</Button>
+              <Button variant="warning">View Project</Button>
             </Link>
           </Card.Body>
         </Card>
