@@ -20,11 +20,12 @@ const ProjectCard = (props) => {
     <div className="ProjectCard">
       <Fade right>
         <Card>
+          <Card.Title>
+            {truncateString(project.title, 20)}
+          </Card.Title>
+          <br/>
           <Card.Img className="card-img-top" variant="top" src={project.imageUrl} />
           <Card.Body>
-            <Card.Title>
-              {truncateString(project.title, 20)}
-            </Card.Title>
             <div><b>Role:</b> {project.role}</div>
             <Card.Text>
               <b>Description:</b> {truncateString(project.description, 30)}

@@ -29,7 +29,7 @@ const ShowProjectList = () => {
   return(
     <div className="ShowProjectList">
       <Container className="p-4">
-        <Row xs={1} md={2} lg={4} className="g-4">
+        <Row xs={1} md={2} lg={3} className="g-4">
           {projects.map((project) => (
             <Col key={project._id}>
               <ProjectCard project={project} />
