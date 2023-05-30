@@ -10,7 +10,7 @@ export const ShowProjectDetails = () => {
 
   return (
     <div className="ShowProjectDetails">
-      <Card className="mt-3 mb-3">
+      <Card className="mt-3 mb-3 px-5">
         <Card.Title className="p-3">{ project.title }</Card.Title>
         <Card.Img variant="top" src={project.imageUrl} />
         <Card.Body>
